@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: hsl(235, 18%, 26%);
+  position: relative;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.white {
+  height: 500px;
+  width: 60%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+  position: relative;
+}
+
+.white h1 {
+  margin-left: 6%;
+  margin-top: 60px;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.white p {
+  margin-left: 6%;
+  font-size: 15px;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.first {
+  margin-top: 30px;
+  margin-left: 5%;
+}
+
+.first span {
+  position: relative;
+  top: -3px;
+  z-index: 1;
+}
+
+.second span {
+  position: relative;
+  top: -3px;
+  z-index: 1;
+}
+
+.third span {
+  position: relative;
+  top: -3px;
+  z-index: 1;
+}
+
+.second {
+  margin-top: 10px;
+  margin-left: 5%;
+}
+
+.third {
+  margin-top: 10px;
+  margin-left: 5%;
+  margin-bottom: 55px;
+}
+
+.illus {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 95%;
+  transform: translateY(-50%);
+  margin-right: 15px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+}
+
+.inp {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.Email p {
+  margin-top: -20px;
+  font-size: 13px;
+}
+
+.inp input {
+  height: 40px;
+  width: 45%;
+  border-radius: 6px;
+  border: 1px solid #1d1d1f;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.inp input:hover {
+  box-shadow: 1px 1px 8px 1px hsl(220, 15%, 55%);
+}
+
+.inp button {
+  height: 40px;
+  width: 45%;
+  border-radius: 6px;
+  border: 1px solid #1d1d1f;
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.inp button:hover {
+  box-shadow: 1px 1px 8px 1px gray;
+}
+
+.email {
+  text-align: left;
+}
+
+.cont-error {
+  height: 20px;
+  width: 15%;
+  background: none;
+  position: absolute;
+  top: 67%;
+  right: 53%;
+  color: black;
+  text-align: center;
+  border: none;
+}
+
+.email-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.eml-error {
+  color: red;
+}
+
+.email-cont span {
+  margin-left: 130px;
+  font-size: 12px;
+  transition: all 0.3s ease-in-out;
+}
+
+.mobile-illus {
+  display: none;
+}
